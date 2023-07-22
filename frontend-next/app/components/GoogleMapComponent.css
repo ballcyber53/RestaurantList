@@ -1,0 +1,65 @@
+/* CSS สำหรับ GoogleMapComponent */
+.container {
+    margin-top: 20px;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  .list-group {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+    list-style: none;
+  }
+  
+  .list-group-item.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  /* CSS สำหรับข้อมูลแสดงข้างเคียง */
+  .card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-text {
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .list-group {
+      max-height: 200px;
+    }
+  
+    .card {
+      max-width: none;
+    }
+  }
+  
