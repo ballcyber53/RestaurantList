@@ -128,7 +128,7 @@ const GoogleMapComponent = () => {
           <div className="col-md-6">
             <LoadScript
               googleMapsApiKey={
-                "AIzaSyAjsdqyp3g3YwtbRJ1lzft9Pt467jJ-vuU" // แทนที่ด้วย Google Maps API Key ของคุณ
+                GOOGLE_MAPS_API_KEY // แทนที่ด้วย Google Maps API Key ของคุณ
               }
             >
               <GoogleMap
